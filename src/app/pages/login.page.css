@@ -1,0 +1,87 @@
+.auth-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #eef6ff 100%);
+  padding: 24px;
+}
+
+.auth-card {
+  width: min(100%, 480px);
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+  padding: 32px;
+}
+
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.brand-mark {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-weight: 800;
+  color: white;
+  background: linear-gradient(135deg, #20c997, #0ea5e9);
+}
+
+.eyebrow {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: #64748b;
+}
+
+h1 {
+  margin: 4px 0 0;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 18px 0 22px;
+  font-size: 26px;
+}
+
+.login-form {
+  display: grid;
+  gap: 18px;
+}
+
+label {
+  display: grid;
+  gap: 8px;
+  color: #334155;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #dbe2ec;
+  border-radius: 12px;
+  padding: 14px 16px;
+  background: #f8fafc;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 14px 18px;
+  font-weight: 700;
+  cursor: pointer;
+  background: linear-gradient(135deg, #10b981, #0ea5e9);
+  color: #fff;
+}
+
+.muted-text {
+  margin-top: 18px;
+  color: #64748b;
+  font-size: 14px;
+}

@@ -1,0 +1,31 @@
+<div class="auth-shell">
+  <div class="auth-card">
+    <div class="brand-row">
+      <div class="brand-mark">V</div>
+      <div>
+        <div class="eyebrow">Vendor portal</div>
+        <h1>VendorFlow</h1>
+      </div>
+    </div>
+
+    <h2>Sign in to manage your store</h2>
+
+    <form class="login-form" (submit)="login(); $event.preventDefault()">
+      <label>
+        <span>Email</span>
+        <input type="email" [(ngModel)]="email" name="email" placeholder="vendor@freshbite.com" />
+      </label>
+
+      <label>
+        <span>Password</span>
+        <input type="password" [(ngModel)]="password" name="password" placeholder="••••••••" />
+      </label>
+
+      <button type="submit">Log in</button>
+    </form>
+
+    <p class="muted-text">
+      Demo access: vendor@freshbite.com / vendor123
+    </p>
+  </div>
+</div>

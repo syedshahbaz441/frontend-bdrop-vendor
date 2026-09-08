@@ -1,0 +1,51 @@
+<div class="page-shell">
+  <aside class="sidebar">
+    <div class="brand-row">
+      <div class="brand-mark">V</div>
+      <h3>VendorFlow</h3>
+    </div>
+    <nav>
+      <a routerLink="/dashboard">Overview</a>
+      <a routerLink="/products">Products</a>
+      <a routerLink="/orders" class="active">Orders</a>
+      <a routerLink="/analytics">Analytics</a>
+      <a routerLink="/login">Logout</a>
+    </nav>
+  </aside>
+
+  <main class="main-panel">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Orders</p>
+        <h2>Recent transactions</h2>
+      </div>
+    </header>
+
+    <div class="order-table">
+      <div class="row header">
+        <span>Order</span>
+        <span>Item</span>
+        <span>Status</span>
+        <span>Total</span>
+      </div>
+      <div class="row">
+        <span>#1042</span>
+        <span>Classic Burger</span>
+        <span class="status ready">Ready</span>
+        <span>$18</span>
+      </div>
+      <div class="row">
+        <span>#1043</span>
+        <span>Veggie Wrap</span>
+        <span class="status prep">Preparing</span>
+        <span>$15</span>
+      </div>
+      <div class="row">
+        <span>#1044</span>
+        <span>Chickpea Bowl</span>
+        <span class="status new">New</span>
+        <span>$17</span>
+      </div>
+    </div>
+  </main>
+</div>
