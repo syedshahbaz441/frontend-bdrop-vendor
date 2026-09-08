@@ -1,1 +1,9 @@
+<div class="backend-connection" [class.connected]="backendStatus() === 'Connected'">
+  <span class="backend-indicator" aria-label="backend connectivity status"></span>
+  <div>
+    <div class="backend-title">{{ backendStatus() }}</div>
+    <div class="backend-meta">{{ backendDetails() }}</div>
+  </div>
+</div>
+
 <router-outlet></router-outlet>
